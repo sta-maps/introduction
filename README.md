@@ -18,3 +18,40 @@ STA-Maps help you to visualize and discuss topics like:
 STA-Maps were not invented from the ground up, instead they were heavily inspired by visualization techniques for software architectures (such as C4, Arc42 or 4+1), Context Maps from Domain Driven Design and Team Topologies.
 
 STA-Maps don't aim to replace any of these approches. Instead they offer some more opinionated interpretations of these ideas and a connection between them towards a more holistic perspective.
+
+## Elements of STA-Maps
+
+### Building Blocks
+- Domain
+- Sub-Domain
+- Bounded Context
+- Software Architecture Module
+- System (aka. Deployment Unit)
+- Team
+
+### Relationships
+- Integration
+  - API
+  - UI-based Integration
+  - Manual or Organizational
+- Model Propagation
+  - Model-to-Model Transformation
+  - Cloned Model
+  - Shared Model
+- Team Interaction
+  - Collaboration
+  - Customer-Supplier (limited / unlimited)
+  - Facilitation
+  - Veto-based
+- Team Dependencies
+  - Mutual
+  - Upstream / Downstream
+  - Free
+  
+## Possible Perspectives of STA-Maps
+
+### Alignments
+
+### Governance
+
+### Model Propagation
