@@ -19,6 +19,24 @@ STA-Maps were not invented from the ground up, instead they were heavily inspire
 
 STA-Maps don't aim to replace any of these approches. Instead they offer some more opinionated interpretations of these ideas and a connection between them towards a more holistic perspective.
 
+## Principles of STA-Maps
+
+### Flexibility
+
+STA-Maps refrain from having a structure of fixed views. You can build your own views. In order to get you started they offer some views that may come in handy but you should not treat them as the "official STA-Maps views", they are just ideas and proposals.
+
+### Open for extension
+
+You are missing something? No problem: just add your building block, team dependency or -relationship. Don't hesitate for open a pull request if you think that others can benefit from your idea.
+
+### Trade-Offs instead of templates
+
+STA-Maps don't tell you what is right or wrong. Instead they help you to visualize trade-offs in order to better discuss them. STA-Maps don't propagate patterns or anti-patterns. Neither do they offer "best practices".
+
+### Collaborative
+
+STA-Maps are collaborative. They should not be used in an ivory tower telling others what to do. STA-Maps are there for modeling and reasoning about sociotechnical systems in a collaborative fashion.
+
 ## Elements of STA-Maps
 
 ### Building Blocks
@@ -52,6 +70,14 @@ STA-Maps don't aim to replace any of these approches. Instead they offer some mo
 
 ### Alignments
 
+With STA-Maps you are able to visualize various aligment scenarios for the building blocks like:
+
+- How are bounded contexts aligned to subdomains?
+- How are modules bundled into systems (aka deployment units)?
+- Which modules are aligned to bounded contexts and how good is their aligment?
+- Which teams have an end-to-end responsibility for which systems or modules or bounded context
+
+This list could go on forever. STA-Maps don't impose a fixed structure, they offer building blocks which you can arrange how you see fit.
 ### Governance
 
 ### Model Propagation
