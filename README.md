@@ -78,6 +78,25 @@ With STA-Maps you are able to visualize various aligment scenarios for the build
 - Which teams have an end-to-end responsibility for which systems or modules or bounded context
 
 This list could go on forever. STA-Maps don't impose a fixed structure, they offer building blocks which you can arrange how you see fit.
-### Governance
 
-### Model Propagation
+### Cross-Team Dynamics
+
+STA-Maps enable you to visualize and reason many settings for cross-team dynamics like:
+
+- Where is long lived, purpose-less collaboration between teams?
+- Does one team raises requirements against another team?
+- Does a team have veto rights against changes of other teams?
+- Is a team facilitating for other teams?
+- Do we have a clear self-service, no-communication-neccessary X-as-a-Service dynamic between teams
+- Are there organizational, manual business processes between teams? 
+
+### Coupling on APIs and Models
+
+With STA-Maps you can take a deep dive look into the topic of coupling at the level of APIs and Models:
+
+- Where are APIs tailored to many consumers without having "special features" for specific consumers?
+- Where are consumer-specific Point-To-Point APIs / Connections between modules or systems?
+- Is the model, which is provided by an API based on a standard (such as vCard or iCalendar) or is it proprietary?
+- Where do systems or modules share artifacts such as database schemas or shared libraries?
+- Does a system or module copy an external model into their own domain model?
+- Does a system or module transform the model of an external API towards it's own model?
