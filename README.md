@@ -40,12 +40,15 @@ STA-Maps are collaborative. They should not be used in an ivory tower telling ot
 ## Elements of STA-Maps
 
 ### Building Blocks
+- Value Stream 
 - Domain
 - Sub-Domain
 - Bounded Context
 - Software Architecture Module
 - System (aka. Deployment Unit)
 - Team
+
+![Building Blocks](resources/STA-Maps-BuildingBlocks.jpg "STA-Maps Building Blocks")
 
 ### Relationships
 - Integration
